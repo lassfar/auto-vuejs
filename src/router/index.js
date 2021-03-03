@@ -1,6 +1,10 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import AddAnnonce from '../views/AddAnnonce.vue'
+import Annonce from '../views/Annonce.vue'
+import Login from '../views/Login.vue'
+
 
 Vue.use(VueRouter)
 
@@ -9,6 +13,21 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/login',
+    name: 'Login',
+    component: Login
+  },
+  {
+    path: '/annonce',
+    name: 'Annonce',
+    component: Annonce
+  },
+  {
+    path: '/add-annonce',
+    name: 'AddAnnonce',
+    component: AddAnnonce
   },
   {
     path: '/about',

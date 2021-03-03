@@ -1,26 +1,26 @@
 
 <script>
 import AnnonceList from '../components/annonce/AnnonceList.vue'
-import Header from '../components/layouts/Header.vue'
-import Layout from '../components/layouts/Layout.vue'
 import Search from '../components/layouts/Search.vue'
-import LoginForm from '../components/login/LoginForm.vue'
 
 export default {
-  name: 'Home',
   components: {
-    Layout,
-    Header,
-    Search,
     AnnonceList,
-    LoginForm
+    Search  
+
   }
 }
 </script>
 
+
 <template>
-  <div class="home">
+  <div>
     <Search></Search>
     <AnnonceList></AnnonceList>
   </div>
 </template>
+
+
+<style>
+
+</style>
