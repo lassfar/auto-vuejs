@@ -1,10 +1,11 @@
 
 <script>
 import AnnonceList from '../components/annonce/AnnonceList.vue'
-import Header from '../components/layouts/Header.vue'
-import Layout from '../components/layouts/Layout.vue'
-import Search from '../components/layouts/Search.vue'
-import LoginForm from '../components/login/LoginForm.vue'
+import Header from '../components/layouts/shared/Header.vue'
+import Layout from '../components/layouts/appLayout/Layout.vue'
+import Search from '../components/layouts/shared/Search.vue'
+import LoginForm from '../components/auth/LoginForm.vue'
+import store from '../store'
 
 export default {
   name: 'Home',
@@ -14,6 +15,9 @@ export default {
     Search,
     AnnonceList,
     LoginForm
+  },
+  mounted() {
+    // store.dispatch('auth/checkLoggedUserAction');
   }
 }
 </script>

@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import AddAnnonce from '../views/AddAnnonce.vue'
-import Annonce from '../views/Annonce.vue'
-import Login from '../views/Login.vue'
+import AddAnnonce from '../views/annonce/AddAnnonce.vue'
+import Annonce from '../views/annonce/Annonce.vue'
+import Login from '../views/auth/Login.vue'
 
 
 Vue.use(VueRouter)

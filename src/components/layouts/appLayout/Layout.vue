@@ -1,6 +1,6 @@
 
 <script>
-import Header from './Header.vue'
+import Header from '../shared/Header.vue'
 export default {
   components: { Header },
   name: 'Layout'  
@@ -8,7 +8,7 @@ export default {
 </script>
 
 <template>
-  <div class="container">
+  <div class="">
     <slot>
       <Header></Header>
     </slot>

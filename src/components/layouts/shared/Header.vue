@@ -1,7 +1,12 @@
 
 <script>
+import store from '../../../store'
+
 export default {
   name: 'Header',
+  computed: {
+    // user() { return store.state.userAuthData; }
+  }
 }
 </script>
 
@@ -11,7 +16,7 @@ export default {
       <div class="container">
         <a href="javascript:;" class="navbar-brand pb-0">
             <img
-                src="../../assets/img/logo.png"
+                src="../../../assets/img/logo.png"
                 alt="brand logo"
             />
         </a>
@@ -29,7 +34,7 @@ export default {
           </ul>
     
           <span class="btn nav-link p-1 mt-3 text-muted">
-            #username#
+            <!-- {{user.name}} -->
           </span>
           <button type="button" class="btn nav-link p-1 mt-3 text-muted">se déconnecter</button>
     

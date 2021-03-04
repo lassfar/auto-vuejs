@@ -1,6 +1,6 @@
 
 <script>
-import Layout from './components/layouts/Layout.vue'
+import Layout from './components/layouts/appLayout/Layout.vue'
 export default {
   components: {
     Layout

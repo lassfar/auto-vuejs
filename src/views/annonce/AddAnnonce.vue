@@ -1,6 +1,6 @@
 
 <script>
-import NewAnnonce from '../components/annonce/NewAnnonce.vue'
+import NewAnnonce from '../../components/annonce/NewAnnonce.vue'
 export default {
   components: { NewAnnonce },
   
